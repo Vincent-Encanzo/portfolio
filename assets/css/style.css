@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;700;900&display=swap");
+body {
+  background-color: #bcf87c;
+  font-family: "Montserrat";
+  font-size: 14px;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+
+.borda-inferior::after {
+  content: "";
+  background: url("/assets/images/borda-top.png");
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  z-index: 10;
+  left: 0;
+  bottom: 99%;
+}
+
+.borda-superior::before {
+  content: "";
+  background: url("/assets/images/borda-bot.png");
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  z-index: 10;
+  left: 0;
+  bottom: -49px;
+}
+
+#nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.nav-list-item a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #1a0052;
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.nav-list-item:hover .trace {
+  width: 45px;
+}
+
+.trace {
+  width: 10px;
+  height: 2px;
+  background-color: #1a0052;
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.about {
+  position: relative;
+  color: #1a0052;
+  padding-bottom: 20px;
+}
+
+.row .col-lg-6 h2 {
+  color: #1a0052;
+}
+
+#about-list {
+  list-style: none;
+  font-size: 17px;
+  padding: 0;
+}
+#about-list li i {
+  font-size: 40px;
+  padding: 5px;
+  transition: 0.3s ease;
+}
+#about-list li .fa-css3-alt {
+  color: #3595cf;
+}
+#about-list li .fa-html5 {
+  color: #dd4b25;
+}
+#about-list li .fa-square-js {
+  color: #efd81d;
+}
+#about-list li .fa-git {
+  color: #3a2b00;
+}
+#about-list li .fa-bootstrap {
+  color: #8311f6;
+}
+#about-list li .fa-sass {
+  color: #c66394;
+}
+#about-list li i:hover {
+  font-size: 50px;
+}
+
+.projetos {
+  height: 100%;
+  background-color: #1a0052;
+}
+
+.projeto-item {
+  margin: 40px;
+}
+.projeto-item .col-lg-6 a {
+  text-decoration: none;
+}
+.projeto-item .col-lg-6 h2 {
+  color: #bcf87c;
+}
+
+.projetos-heading {
+  color: #bcf87c;
+}
+.projetos-heading .trace {
+  width: 100px;
+  background-color: #bcf87c;
+}
+
+.link {
+  margin-bottom: 10px;
+  width: fit-content;
+}
+.link a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #bcf87c;
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.link:hover .trace {
+  width: 45px;
+}
+.link .trace {
+  background-color: #bcf87c;
+}
+
+#project-carousel {
+  border: 1px solid #bcf87c;
+}
+
+#project-carousel2 {
+  border: 1px solid #bcf87c;
+}
+
+.contato {
+  background-color: #bcf87c;
+}
+
+.contato-heading h2 {
+  color: #1a0052;
+}
+.contato-heading .trace {
+  width: 100px;
+}
+
+.contato .container .row {
+  padding: 20px;
+}
+.contato .container .row .row:hover span {
+  color: #4107be;
+}
+.contato .container .row .row:hover i {
+  color: #4107be;
+}
+.contato .container .row .row i {
+  font-size: 30px;
+  color: #1a0052;
+  padding: 10px;
+  transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.contato .container .row .row span {
+  color: #1a0052;
+  font-size: 20px;
+  transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.contato .container .row .row a {
+  text-decoration: none;
+}
+.contato .container .row .row .trace {
+  margin-left: 23px;
+}
+.contato .container .row .row:hover .trace {
+  width: 100px;
+  background-color: #4107be;
+}
+
+.contato-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  .about-heading {
+    font-size: 20px !important;
+    margin: 0;
+  }
+  .about {
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  .about .col-lg-8 h2 {
+    font-size: 20px !important;
+  }
+  .about-img {
+    height: 30vh;
+  }
+}
+@media (min-width: 714px) and (max-width: 990px) {
+  .about {
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  .about-img {
+    height: 30vh;
+  }
+  .col-lg-8 h2 {
+    padding: 10px;
+  }
+  .project-carousel, .project-carousel2 {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 491px) and (max-width: 713px) {
+  .col-lg-8 h2 {
+    padding: 10px;
+  }
+  .about {
+    height: 70%;
+    margin-bottom: 20px;
+  }
+  .about-img {
+    height: 30vh;
+  }
+}
+@media (max-width: 490px) {
+  .col-lg-8 h2 {
+    padding: 10px;
+  }
+  .about {
+    height: 100%;
+  }
+  .about-img {
+    height: 30vh;
+  }
+  #about-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #about-list li {
+    padding-bottom: 30px;
+  }
+}

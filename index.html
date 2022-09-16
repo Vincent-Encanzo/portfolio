@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/98b761f05e.js" crossorigin="anonymous"></script>
+    <title>Vitor Costa - Portfólio</title>
+</head>
+<body>
+    <!--Nav-->
+    <nav>
+        <div class="container-fluid">
+            <ul id="nav-list">
+                <li class="nav-list-item">
+                    <a href="#about">Sobre</a>
+                    <div class="trace"></div>
+                </li>
+                <li class="nav-list-item">
+                    <a href="#projetos">Projetos</a>
+                    <div class="trace"></div>
+                </li>
+                <li class="nav-list-item">
+                    <a href="#contato">Contato</a>
+                    <div class="trace"></div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--About-->
+    <article class="container-fluid mt-5 about" id="about">
+        <div class="row d-md-flex justify-content-md-center d-sm-flex justify-content-sm-center">
+            <div class="col-lg-4 d-flex justify-content-center">
+                <img src="./assets/images/portrait.png" class="img-fluid about-img" alt="">
+            </div>
+            <div class="col-lg-8 px-5">
+                <h2 class="text-center">Olá, sou <strong>Vitor Costa</strong></h2>
+                <p class="text-center fs-3 about-heading">Tenho 22 anos e sou estudante da área front-end.</p>
+
+                <p class="fs-6 text-center">Estudo programação front-end há mais ou menos um ano, e estou na procura do meu primeiro emprego na área.</p>
+                <h2 class="text-center fw-bold mb-3">HABILIDADES:</h2>
+
+                <ul id="about-list" class="d-flex justify-content-between">
+                    <li data-bs-toggle="tooltip" data-bs-placement="bottom" title="Possuo curso em HTML5 e CSS3 certificado pela B7Web;"><i class="fa-brands fa-css3-alt"></i><i class="fa-brands fa-html5"></i></li>
+
+                    <li data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nível intermediário em JavaScript;"><i class="fa-brands fa-square-js"></i></li>
+
+                    <li data-bs-toggle="tooltip" data-bs-placement="bottom" title="Noção básica de Git/GitHub;"><i class="fa-brands fa-git"></i><i class="fa-brands fa-github"></i></li>
+
+                    <li data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nível básico-intermediário em Bootstrap e Sass."><i class="fa-brands fa-bootstrap"></i><i class="fa-brands fa-sass"></i></li>
+                </ul>
+            </div>
+        </div>
+    </article>
+
+    <!--Projetos-->
+    <section class="container-fluid projetos position-relative borda-superior borda-inferior" id="projetos">
+        <div class="container py-5">
+            <div class="projetos-heading">
+                <h2>Projetos</h2>
+                <div class="trace"></div>
+            </div>
+            
+            <div class="projeto-item">
+                <div class="container">
+                    <div class="row mt-3">
+                        <div class="col-lg-6">
+                            <a href="https://github.com/Vincent-Encanzo/Interface-de-itens/tree/main" target="_blank"><h2>Case de estudos: <br> Interface de vendas</h2></a>
+                            <p>Esse projeto teve intuito de consolidar meus conhecimentos de JavaScript adquiridos durante o curso, mentorado por Bonieky Lacerda na plataforma B7Web.</p>
+                            <p>Totalmente responsivo e funcional (exceto o back-end).</p>
+                            <div class="links">
+                                <div class="link">
+                                    <a href="https://vincent-encanzo.github.io/Interface-de-itens/" target="_blank">GitHub Pages</a>
+                                    <div class="trace"></div>
+                                </div>
+                                <div class="link">
+                                    <a href="https://github.com/Vincent-Encanzo/Interface-de-itens/tree/main" target="_blank">Repositório</a>
+                                    <div class="trace"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div id="project-carousel" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./assets/images/interface-screenshot.png" class="d-block w-100" alt="screenshot">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/interface-screenshot2.png" class="d-block w-100" alt="screenshot">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/interface-screenshot3.png" class="d-block w-100" alt="screenshot">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/interface-screenshot4.png" class="d-block w-100" alt="screenshot">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#project-carousel" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#project-carousel" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projeto-item">
+                <div class="container">
+                    <div class="row mt-3">
+                        <div class="col-lg-6">
+                            <a href="https://github.com/Vincent-Encanzo/koppe" target="_blank"><h2>Case de estudos: <br> KOPPEE</h2></a>
+                            <p>Projeto focado na criação de um site usando apenas um layout de exemplo tirado da <a href="https://htmlcodex.com/" style="color: #bcf87c;">HTML Codex</a>. Minha primeira experiência com a tecnologia Bootstrap.</p>
+                            <p>Totalmente responsivo.</p>
+                            <div class="links">
+                                <div class="link">
+                                    <a href="https://vincent-encanzo.github.io/koppe/" target="_blank">GitHub Pages</a>
+                                    <div class="trace"></div>
+                                </div>
+                                <div class="link">
+                                    <a href="https://github.com/Vincent-Encanzo/koppe" target="_blank">Repositório</a>
+                                    <div class="trace"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div id="project-carousel2" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./assets/images/KOPPE-screenshot.png" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/KOPPE-screenshot3.png" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/KOPPE-screenshot4.png" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/KOPPE-screenshot5.png" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/KOPPE-screenshot6.png" class="d-block w-100">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#project-carousel2" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#project-carousel2" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contato-->
+    <section class="container-fluid mt-5 contato" id="contato">
+        <div class="container py-5">
+            <div class="contato-heading">
+                <h2>Contato</h2>
+                <div class="trace"></div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="row">
+                        <div class="contato-item text-center">                        
+                            <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-costa-861283183/" target="_blank"><i class="fa-brands fa-linkedin"></i><span>Linkedin</span>
+                            </a>
+                            <div class="trace"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="contato-item text-center">
+                            <a href="https://github.com/Vincent-Encanzo" target="_blank"><i class="fa-brands fa-github"></i><span>GitHub</span></a>
+                            <div class="trace"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="contato-item text-center">
+                            <a href="https://contate.me/jvitorcosta" target="_blank"><i class="fa-brands fa-square-whatsapp"></i><span>Whatsapp/Celular</span></a>
+                            <div class="trace"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="contato-item text-center">
+                            <a><i class="fa-solid fa-envelope"></i><span>joaogh258@gmail.com</span></a>
+                            <div class="trace"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
