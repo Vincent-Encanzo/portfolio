@@ -21,7 +21,7 @@ body {
 
 .borda-superior::before {
   content: "";
-  background: url('https://github.com/Vincent-Encanzo/portfolio/blob/main/assets/images/borda-bot.png');
+  background: url('assets/images/borda-bot.png');
   position: absolute;
   width: 100%;
   height: 50px;
