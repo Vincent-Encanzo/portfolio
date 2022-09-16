@@ -10,7 +10,7 @@ body {
 
 .borda-inferior::after {
   content: "";
-  background: url("../assets/images/borda-top.png");
+  background: url("assets/images/borda-top.png");
   position: absolute;
   width: 100%;
   height: 50px;
